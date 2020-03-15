@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04A827023FFE67B006165A1 /* ApiREQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A826F23FFE67B006165A1 /* ApiREQ.swift */; };
+		D04A827424000ADD006165A1 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A827324000ADD006165A1 /* WeatherData.swift */; };
+		D04A8276240407EA006165A1 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A8275240407EA006165A1 /* CityList.swift */; };
 		D0D1B91923FC12020049BFFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1B91823FC12020049BFFE /* AppDelegate.swift */; };
 		D0D1B91B23FC12020049BFFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1B91A23FC12020049BFFE /* SceneDelegate.swift */; };
 		D0D1B91D23FC12020049BFFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1B91C23FC12020049BFFE /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D04A826F23FFE67B006165A1 /* ApiREQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiREQ.swift; sourceTree = "<group>"; };
+		D04A827324000ADD006165A1 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		D04A8275240407EA006165A1 /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
 		D0D1B91523FC12020049BFFE /* LabbSwiftWilliam.V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabbSwiftWilliam.V.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D1B91823FC12020049BFFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D1B91A23FC12020049BFFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				D0D1B92123FC12060049BFFE /* Assets.xcassets */,
 				D0D1B92323FC12060049BFFE /* LaunchScreen.storyboard */,
 				D0D1B92623FC12060049BFFE /* Info.plist */,
+				D04A826F23FFE67B006165A1 /* ApiREQ.swift */,
+				D04A827324000ADD006165A1 /* WeatherData.swift */,
+				D04A8275240407EA006165A1 /* CityList.swift */,
 			);
 			path = LabbSwiftWilliam.V;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D1B91D23FC12020049BFFE /* ViewController.swift in Sources */,
+				D04A827424000ADD006165A1 /* WeatherData.swift in Sources */,
+				D04A827023FFE67B006165A1 /* ApiREQ.swift in Sources */,
 				D0D1B91923FC12020049BFFE /* AppDelegate.swift in Sources */,
+				D04A8276240407EA006165A1 /* CityList.swift in Sources */,
 				D0D1B91B23FC12020049BFFE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
